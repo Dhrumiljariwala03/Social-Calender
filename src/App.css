@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.tour-btn {
+  margin-left: auto;
+  background: #74b9ff;
+  color: white;
+}
+
+.month-header {
+  display: flex;
+  width: 1400px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.weekdays {
+  font-weight: bold;
+  color: #9face6;
+  font-size: 20px;
+  text-align: center;
+}
+
+.day-card {
+  background: white;
+  color: gray;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 150px;
+  box-shadow: px 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+}
+
+.event-img {
+  width: 100%;
+  max-height: 80px;
+  object-fit: cover;
+  margin: 6px 0;
+  border-radius: 10px;
+}
+
+.day-card.empty {
+  background: transparent;
+  box-shadow: none;
+}
+
+.schedule-btn {
+  background: #0984e3;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: auto;
+}
+.h5{
+  padding: 0px;
+}
